@@ -234,13 +234,13 @@ export default function Cover({ onOpen, onStartMusic }: CoverProps) {
             <div className="relative z-10 text-center px-6 pt-24 pb-12 md:pt-24 md:pb-10 select-none">
               {/* Couple Names in Viaoda Libre with Alex Brush & */}
               <h1 className="mb-2 flex flex-col items-center leading-tight">
-                <span className="block w-full text-center font-viaoda text-[28px] sm:text-[32px] md:text-[36px] text-[#B97D3E] tracking-normal">
+                <span className="block w-full text-center font-viaoda text-[24px] sm:text-[30px] md:text-[36px] text-[#B97D3E] tracking-normal">
                   {invitation.couple.first}
                 </span>
                 <span className="block w-full text-center font-alex text-xl sm:text-2xl text-[#B97D3E] leading-none my-1">
                   &amp;
                 </span>
-                <span className="block w-full text-center font-viaoda text-[28px] sm:text-[32px] md:text-[36px] text-[#B97D3E] tracking-normal">
+                <span className="block w-full text-center font-viaoda text-[21px] sm:text-[27px] md:text-[33px] text-[#B97D3E] tracking-normal">
                   {invitation.couple.second}
                 </span>
               </h1>

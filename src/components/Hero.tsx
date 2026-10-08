@@ -37,7 +37,7 @@ export default function Hero() {
           <motion.div
             animate={{ y: [-3, 3, -3] }}
             transition={{ duration: 7, repeat: Infinity, ease: 'easeInOut' }}
-            className="relative w-[92%] max-w-[360px] md:max-w-[480px]"
+            className="relative w-[92%] max-w-[370px] sm:max-w-[420px] md:max-w-[480px]"
           >
             {/* The Authentic 3D Baroque Floral Frame */}
             <img
@@ -48,17 +48,17 @@ export default function Hero() {
             />
 
             {/* Couple names inside the frame */}
-            <div className="absolute inset-0 z-20 flex flex-col items-center justify-center text-center leading-none uppercase font-viaoda text-gold">
-              <div className="flex w-[56%] justify-center">
-                <span className="whitespace-nowrap text-[17px] sm:text-[24px] md:text-[30px] font-normal tracking-[0.04em] leading-[1.3]">
+            <div className="absolute inset-0 z-20 flex flex-col items-center justify-center text-center leading-none uppercase font-viaoda text-gold px-2">
+              <div className="flex w-[62%] sm:w-[60%] justify-center">
+                <span className="whitespace-nowrap text-[15px] sm:text-[20px] md:text-[25px] font-normal tracking-[0.03em] leading-[1.25]">
                   {invitation.couple.first}
                 </span>
               </div>
-              <span className="my-1.5 sm:my-2.5 md:my-3 font-alex text-base sm:text-lg md:text-xl text-gold lowercase leading-none opacity-90">
+              <span className="my-1 sm:my-2 md:my-2.5 font-alex text-sm sm:text-base md:text-xl text-gold lowercase leading-none opacity-90">
                 &amp;
               </span>
-              <div className="flex w-[56%] justify-center">
-                <span className="whitespace-nowrap text-[17px] sm:text-[24px] md:text-[30px] font-normal tracking-[0.04em] leading-[1.3]">
+              <div className="flex w-[64%] sm:w-[60%] justify-center">
+                <span className="whitespace-nowrap text-[12.5px] min-[360px]:text-[13.5px] sm:text-[17px] md:text-[21px] font-normal tracking-[0.02em] leading-[1.25]">
                   {invitation.couple.second}
                 </span>
               </div>

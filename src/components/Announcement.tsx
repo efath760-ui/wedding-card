@@ -32,22 +32,22 @@ export default function Announcement() {
         </Reveal>
 
         {/* Stacked Names with large vertical gaps - sized to fit on one line on mobile */}
-        <div className="flex flex-col items-center select-none">
+        <div className="flex flex-col items-center select-none w-full px-2">
           <Reveal variant="fadeUp" delay={0.25}>
-            <h3 className="font-ebGaramond text-olive text-[28px] sm:text-[40px] md:text-[56px] font-normal leading-none tracking-wide whitespace-nowrap">
+            <h3 className="font-ebGaramond text-olive text-[26px] sm:text-[40px] md:text-[56px] font-normal leading-none tracking-wide whitespace-nowrap">
               {invitation.couple.first}
             </h3>
           </Reveal>
 
           {/* Small, calligraphic gold ampersand matching reference */}
           <Reveal variant="fadeUp" delay={0.35}>
-            <span className="font-alex text-gold text-[28px] sm:text-[36px] md:text-[44px] my-5 sm:my-8 block leading-none">
+            <span className="font-alex text-gold text-[26px] sm:text-[36px] md:text-[44px] my-5 sm:my-8 block leading-none">
               &amp;
             </span>
           </Reveal>
 
           <Reveal variant="fadeUp" delay={0.45}>
-            <h3 className="font-ebGaramond text-olive text-[28px] sm:text-[40px] md:text-[56px] font-normal leading-none tracking-wide whitespace-nowrap">
+            <h3 className="font-ebGaramond text-olive text-[23px] min-[360px]:text-[25px] sm:text-[38px] md:text-[54px] font-normal leading-none tracking-wide whitespace-nowrap">
               {invitation.couple.second}
             </h3>
           </Reveal>
