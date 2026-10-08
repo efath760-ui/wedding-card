@@ -1,6 +1,6 @@
 // src/config/invitation.ts
 export const invitation = {
-  couple: { first: "Aminul Islam", second: "Ayesha Humayra Yeara" },
+  couple: { first: "Md. Aminul Islam", second: "Ayesha Humayra Yeara" },
   eventDateISO: "2026-10-23T19:00:00+06:00", // Asia/Dhaka
   displayDate: "October 23, 2026",
   cover: { line: "Cordially Invites", button: "Open" },

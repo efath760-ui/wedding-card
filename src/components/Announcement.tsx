@@ -34,7 +34,7 @@ export default function Announcement() {
         {/* Stacked Names with large vertical gaps - sized to fit on one line on mobile */}
         <div className="flex flex-col items-center select-none w-full px-2">
           <Reveal variant="fadeUp" delay={0.25}>
-            <h3 className="font-ebGaramond text-olive text-[26px] sm:text-[40px] md:text-[56px] font-normal leading-none tracking-wide whitespace-nowrap">
+            <h3 className="font-ebGaramond text-olive text-[25px] sm:text-[39px] md:text-[54px] font-normal leading-none tracking-wide whitespace-nowrap">
               {invitation.couple.first}
             </h3>
           </Reveal>

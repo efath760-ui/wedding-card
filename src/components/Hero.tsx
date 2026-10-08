@@ -49,8 +49,8 @@ export default function Hero() {
 
             {/* Couple names inside the frame */}
             <div className="absolute inset-0 z-20 flex flex-col items-center justify-center text-center leading-none uppercase font-viaoda text-gold px-2">
-              <div className="flex w-[62%] sm:w-[60%] justify-center">
-                <span className="whitespace-nowrap text-[15px] sm:text-[20px] md:text-[25px] font-normal tracking-[0.03em] leading-[1.25]">
+              <div className="flex w-[64%] sm:w-[60%] justify-center">
+                <span className="whitespace-nowrap text-[13.5px] min-[360px]:text-[14.5px] sm:text-[18.5px] md:text-[23px] font-normal tracking-[0.025em] leading-[1.25]">
                   {invitation.couple.first}
                 </span>
               </div>
@@ -58,7 +58,7 @@ export default function Hero() {
                 &amp;
               </span>
               <div className="flex w-[64%] sm:w-[60%] justify-center">
-                <span className="whitespace-nowrap text-[12.5px] min-[360px]:text-[13.5px] sm:text-[17px] md:text-[21px] font-normal tracking-[0.02em] leading-[1.25]">
+                <span className="whitespace-nowrap text-[12px] min-[360px]:text-[13px] sm:text-[17px] md:text-[21px] font-normal tracking-[0.02em] leading-[1.25]">
                   {invitation.couple.second}
                 </span>
               </div>
