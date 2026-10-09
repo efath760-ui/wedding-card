@@ -9,13 +9,11 @@ export const invitation = {
     heading: "Ceremony Info",
     left: {
       father: "Md. Hassan",
-      mother: "Jasmin Begum",
       address: "272/27,R-6, Baten Nagar, Mazar Road, Mirpur-1",
     },
     right: {
       father: "Yousuf Chowdhury",
-      mother: "Jasmin Sultana",
-      address: "H-9,R-9,Block-D,Mirpur-1",
+      address: "H-9,R-9,Block-A,Mirpur-1",
     },
   },
   announce: ["We joyfully announce", "the wedding of our children"],
